@@ -1,7 +1,5 @@
+import pyautogui
+import time
 
-print("             _____                     _______             ______")
-print("|       |      |            |       |  |        |\    |    |     \      \       /")
-print("|       |      |            |       |  |        | \   |    |_____|       \     /")
-print(" _______       |             _______   |______  |  \  |    |   \          \___/")
-print("|       |      |            |       |  |        |   \ |    |    \           |")
-print("|       |    _____          |       |  |______  |    \|    |     \          |")
+time.sleep(1)
+pyautogui.typewrite("", .03)
